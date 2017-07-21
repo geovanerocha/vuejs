@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 // Relógio
-function getAtime() {
+getAtime = () => {
   let date = new Date();
   let hour = (date.getHours() < 10) ? '0' + date.getHours() : date.getHours();
   let minute = (date.getMinutes() < 10) ? '0' + date.getMinutes() : date.getMinutes();
